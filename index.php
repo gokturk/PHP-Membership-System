@@ -1,22 +1,22 @@
 <?php include "veritabani.php"; ?>
 
-<title>PHP Üyelik Formu</title>
+<title>PHP Ãœyelik Formu</title>
 
 <form id="form" name="form" method="post" action="profile.php">
   <table width="252" border="0" align="center">
     <tr>
-      <td width="101">Kullanýcý Adý:</td>
+      <td width="101">KullanÄ±cÄ± AdÄ±:</td>
       <td width="141"><label for="user"></label>
       <input type="text" name="user" id="user" /></td>
     </tr>
     <tr>
-      <td>Þifre</td>
+      <td>Åžifre</td>
       <td><label for="pass"></label>
       <input type="password" name="pass" id="pass" /></td>
     </tr>
     <tr>
       <td>&nbsp;</td>
-      <td><input type="submit" name="Send" id="Send" value="Giriþ Yap" /></td>
+      <td><input type="submit" name="Send" id="Send" value="GiriÅŸ Yap" /></td>
     </tr>
   </table>
 </form>
