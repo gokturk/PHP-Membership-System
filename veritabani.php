@@ -1,13 +1,13 @@
 <?php
 
 $dbhost = "localhost";
-$dbuser = "root";				//veritabaný kullanýcý adýnýz.
-$dbpass = "";					//veritabaný þifreniz. Yoksa boþ býrakýn.
-$dbname = "veritabani";			//veritabaný adý.
+$dbuser = "root";	
+$dbpass = "";		
+$dbname = "veritabani";	
 
 $baglanti = mysql_connect($dbhost, $dbuser, $dbpass);
-	if (!$baglanti) die ("MySQL baðlantýsý baþarýsýz.");
+	if (!$baglanti) die ("MySQL baÄŸlantÄ±sÄ± baÅŸarÄ±sÄ±z.");
 
-mysql_select_db($dbname, $baglanti) or die ("Veritabanýna baðlanamadý.");
+mysql_select_db($dbname, $baglanti) or die ("VeritabanÄ±na baÄŸlanamadÄ±.");
 	
 ?>
