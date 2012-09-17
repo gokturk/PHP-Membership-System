@@ -1,3 +1,3 @@
 PHP Üyelik Formu
 
-Veritanındaki kayıtları kullanıcıların profillerine giriş yapabilmesi için oluşturulmuş basit bir PHP/MySQL üyelik formu.
+Veritabanındaki kayıtlı kullanıcıların sisteme giriş yapabilmesi için oluşturulmuş basit bir PHP/MySQL üyelik formu.
